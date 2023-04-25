@@ -1,7 +1,2 @@
-export {
-  State,
-  Getter,
-  Action,
-  Mutation,
-  namespace
-} from './bindings'
+export { Action, Getter, Mutation, State, namespace } from './bindings';
+
