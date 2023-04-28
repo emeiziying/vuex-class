@@ -1,6 +1,6 @@
 {
   "name": "@sweet5/vuex-class",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Binding helpers for Vuex and vue-class-component",
   "license": "MIT",
   "main": "lib/index.js",
@@ -15,17 +15,19 @@
     "start": "rimraf ./lib/ && tsc -w",
     "build": "rimraf ./lib/ && tsc"
   },
-  "devDependencies": {
-    "@types/node": "^17.0.42",
-    "rimraf": "^3.0.0",
-    "typescript": "^5.0.4",
-    "@sweet5/vue-facing-decorator": "^2.1.20",
-    "vue": "^3.2.47",
-    "vuex": "^4.1.0"
-  },
-  "peerDependencies": {
+  "dependencies": {
     "@sweet5/vue-facing-decorator": "^2.1.21",
     "vue": "^3.2.47",
     "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.42",
+    "rimraf": "^3.0.0",
+    "typescript": "^5.0.4"
+  },
+  "peerDependencies": {
+    "@sweet5/vue-facing-decorator": ">=2.1.21",
+    "vue": ">=3.2.45",
+    "vuex": ">=4.1.0"
   }
 }
